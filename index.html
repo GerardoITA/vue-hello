@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
     <title>Hello Vue</title>
 </head>
 <body>
 
-<div id="app">{{ message }}</div>
+<div id="app">{{ message }}
 
-    <script src="vue.global.js"></script>
+    <div id="immagine">
+        <img :src="immagine" alt="">
+    </div>
+
+
+</div>
+
+
+    
+    <script src="https://unpkg.com/vue@3.2.45/dist/vue.global.js"></script>
+    
     <script src="main.js"></script>
 </body>
 </html>
